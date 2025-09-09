@@ -1,0 +1,17 @@
+/* resources/css/app.css */
+
+/* Ini mengimpor semua utilitas Tailwind */
+@import 'tailwindcss';
+
+/* Direktif @source ini memberi tahu Tailwind file mana saja yang harus dipindai */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../**/*.jsx';
+
+/* Blok @theme digunakan untuk mendefinisikan custom theme */
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
