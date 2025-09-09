@@ -12,3 +12,5 @@ axios.defaults.baseURL = "http://192.168.1.102:81"; // sesuaikan dengan URL Lara
 axios.defaults.withCredentials = true;
 
 export default axios;
+npx shadcn-ui@latest add card
+
